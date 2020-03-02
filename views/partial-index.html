@@ -1,0 +1,21 @@
+<!-- <div class="topics">${topicArray.map(item => {
+    return `<p>${item.topic}: ${item.rank}</p>`;
+}).join('')}
+</div> -->
+
+<form>
+    <div class="formItem">
+    ${topicArray.map(item => {
+        return `
+        <label for="${item.topic}">${item.topic}</label>
+        <select class="dropdown" name="${item.topic}-select">
+        ${rankingList.map(rank => {
+            return `<option class="dropdownItem" value="${rank.name}">${rank.name}</option>`
+        }).join('')}
+        </select>
+        `;
+    }).join('')}
+    <button class="submitButton" type="submit">Submit</button><br>
+    </div>
+</form>
+
