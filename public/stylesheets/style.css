@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+.projectTitle {
+  font-size: 2rem;
+  color: lightcoral;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.topics {
+  width: 20vw;
+  font-size: 2rem;
+}
+
+.radioDiv {
+  display: flex;
+  padding-left: 2vw;
+}
+
+.formItem {
+  display: flex;
+
+}
+
+.dropdownItem {
+  padding: 0;
+  font-size: 1rem;
+}
+
+label {
+  font-size: 1.3rem;
+  padding: 0 1vw;
+}
+
+button {
+  background-color: lightcoral;
+  width: 5vw;
+  margin: 0 1vw;
+}
